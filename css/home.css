@@ -49,6 +49,8 @@ button:hover {
   max-height: 60%;
 }
 
+/* Joe's css */
+
 .king {
   width: 65%;
   height: 650px;
@@ -57,6 +59,12 @@ button:hover {
   margin-right: auto;  
   margin-top: 3.5%;
   text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+
+  #kb {display:none;}
+
 }
 
 #kb {
